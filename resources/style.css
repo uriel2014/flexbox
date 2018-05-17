@@ -1,0 +1,97 @@
+/* OVERAll UNIVERSAL STYLING OF BODY */
+
+body {
+  margin: 0px; /* No Margin */
+  background-color: WhiteSmoke;
+  font-family: 'Rock Salt', cursive;
+  text-align: center;
+}
+
+/*give the class with secondary-background a background-color */
+.secondary-background {
+  background-color: Snow;
+}
+
+/* Give the tag line in the header its own styling*/
+
+.tagline {
+  font-family: 'Quicksand', sans-serif;
+  color: LightSlateGrey;
+  line-height: 125px;
+}
+
+/* Let us now work with the Header */
+h1 {
+  margin: 0;
+  background-color: SkyBlue;
+  line-height: 100px;
+  color: Khaki;
+}
+
+h2 {
+  margin: 10px;
+}
+
+/* Let us now create the content containter */
+
+.container {
+  border: 2px solid Snow;
+}
+
+/* the TO DO SECTION */
+
+.week {
+
+}
+.row {
+  min-height: 200px;
+  display:flex;
+}
+/*Give each row a min height and display flex property */
+
+.square {
+  width: 125px;
+ height: 125px;
+ padding: 10px;
+}
+
+.day.square{
+  background-color: SkyBlue;
+  border: 1px solid white;
+}
+/* will only modify elements with both classnames of day and square*/
+
+.task.square{
+  background-color: Khaki;
+  border: 1px solid white;
+}
+/* Will only modify elements with both classes of task and square*/
+.task p{
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+}
+/* Style the paragraphs nested in the task class */
+
+
+/* Let us Style the Reminders */
+
+.reminders {
+  background-color: Khaki;
+}
+
+/* Style the heading nested in the Reminder class */
+
+.reminders h3 {
+  width: 100%;
+  margin: 10px;
+  color: black;
+  line-height: 90px;
+  font-size: 24px;
+}
+
+/* Footer */
+
+footer {
+  font-size: 24px;
+}
